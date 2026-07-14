@@ -9,8 +9,10 @@ money = sell -  cost
 money_boss = money * (20/100)
 money -= money_boss
 team_money = money / team_member
-print("Amount cost",cost,"Bath")
-print("Sell cost",sell,"Bath")
-print("Overall money",money,"Bath")
-print("money for boss",money_boss,"Bath")
-print("team money per person",team_money,"Bath")
+
+print("=======")
+print(f"Amount cost {cost} Bath")
+print(f"Sell cost {sell} Bath")
+print(f"Overall money {money} Bath")
+print(f"money for boss {money_boss} Bath")
+print(f"team money per person {team_money} Bath")
